@@ -3,7 +3,7 @@
 
 🏆 수상 내역 : 예선 3위, 본선 12위
 
-💻 기술 스택 : SFT, Continual-pretrain, DAFT, distillation
+💻 기술 스택 : SFT, Continual-pretrain, DAFT, distillation, QLoRA
 
 🛠 사용 도구 : Unsloth, Bedrock
 
