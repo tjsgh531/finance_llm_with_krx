@@ -25,7 +25,7 @@
 | qwen2-7B-Instruct | 0.44 | 0.51 | 0.27 | 0.54 | 0.62 | 0.26 |-|
 | v1 | 0.39 | 0.38 | 0.27 | 0.50 | 0.47 | 0.31 |[KR-X-AI:v1](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v1)|
 | v2 | 0.50 | 0.61 | 0.34 | 0.55 | 0.66 | 0.35 |[KR-X-AI:v2](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v2)|
-| v3 | 0.59 | 0.90 | 0.40 | 0.49 | 0.72 | 0.44 |[KR-X-AI:V3](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v3)|
+| v3 | 0.59 | 0.90 | 0.40 | 0.49 | 0.72 | 0.44 |[KR-X-AI:v3](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v3)|
 | v4_mix | 0.61 | 0.92 | 0.40 | 0.55 | 0.77 | 0.41 |[KR-X-AI:v4_m](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v4_m)|
 
 
