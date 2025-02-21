@@ -19,7 +19,6 @@
 
 # 모델 별 성능 분석
 ![image](https://github.com/user-attachments/assets/1b71bffa-4d7a-4361-8938-f818d39ef840)
-<img width="841" alt="image" src="https://github.com/user-attachments/assets/3a836800-033e-490a-b988-1c3106fe6f50" />
 | 모델명 | 전체 평균 | 국내기업 | 재무회계 | 주가예측 | 금융에이전트 | 금융시장 |url|
 |--------|-----------|----------|----------|----------|--------------|----------|----------|
 | qwen2-7B-Instruct | 0.44 | 0.51 | 0.27 | 0.54 | 0.62 | 0.26 |-|
