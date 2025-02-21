@@ -32,4 +32,5 @@
 
 # 참고 문서
 📄 [Adapting Large Language Models to Domains via Reading Comprehensio 논문](https://arxiv.org/abs/2309.09530)
+
 📄 [KRX-Bench: Automating Financial Benchmark Creation via Large Language Models 논문](https://aclanthology.org/2024.finnlp-1.2.pdf)
