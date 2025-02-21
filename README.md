@@ -7,7 +7,7 @@
 
 💻 기술 스택 : SFT, Continual-pretrain, DAFT, distillation, QLoRA
 
-🛠 사용 도구 : Unsloth, Bedrock
+🛠 사용 도구 : Unsloth, Bedrock, GPT API
 
 # 대회 소개 및 내용
 본 대회를 통해 참가자들은 금융 특화 언어 모델을 개발하고, 한국거래소와 금융 특화 언어 모델 전문 기업 원라인AI가 공동 개발한 ‘KRX-Bench’를 이용하여 그 성능을 평가받을 수 있습니다.
