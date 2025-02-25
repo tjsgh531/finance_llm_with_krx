@@ -5,7 +5,7 @@
 
 🏆 수상 내역 : 예선 3위, 본선 12위
 
-💻 기술 스택 : SFT, Continual-pretrain, DAFT, distillation, QLoRA
+💻 기술 스택 : SFT, DAPT, Adapting LLM, distillation, QLoRA
 
 🛠 사용 도구 : Unsloth, Bedrock, GPT API
 
@@ -36,7 +36,7 @@
 
 📍`base model` : Qwen/Qwen2-7B-Instruct
 
-📍`training method` : Continued pre-training, QLoRA
+📍`training method` : DAPT, QLoRA
 
 📍`dataset` : ai hub 금융 합성 데이터셋(14.44GB)
 
@@ -46,13 +46,13 @@
 
 ### V2
 
-: 금융 용어 multi task 데이터셋 Continue Pre-training
+: 금융 용어 multi task 데이터셋 Adapting LLM 학습
 
 📍`model name` : KR-X-AI/krx-qwen2-7b-instruct-v2
 
 📍`base model` : Qwen/Qwen2-7B-Instruct
 
-📍`training method` : Continued pre-training, QLoRA
+📍`training method` : Adapting LLM, QLoRA
 
 📍`dataset` : 금융 용어 데이터 셋 
 
@@ -62,7 +62,7 @@
 
 ### V3
 
-: V2 모델에 MCQA 데이터 셋 fine-tuning
+: V2 모델에 MCQA 데이터 셋 SFT 학습
 
 📍`model name`**:** KR-X-AI/krx-qwen2-7b-instruct-v3
 
@@ -78,7 +78,7 @@
 
 ### V4_mix
 
-: V2모델에 MCQA 데이터 셋과 주가 예측 데이터 셋을 섞어 fine-tuning
+: V2모델에 MCQA 데이터 셋과 주가 예측 데이터 셋을 섞어 SFT 학습
 
 📍`model name`**:** KR-X-AI/krx-qwen2-7b-instruct-v3
 
