@@ -126,7 +126,7 @@
 파이썬 코드를 활용하여 랜덤성을 부여한 상승, 하락 주가 데이터 제작.
 
 # 보고서
-[KRX-금융 언어 모델 경진대회 보고서.pdf](https://github.com/user-attachments/files/18964371/KRX-.pdf)
+📄 [KRX-금융 언어 모델 경진대회 보고서.pdf](https://github.com/user-attachments/files/18964371/KRX-.pdf)
 
 # 참고 문서
 📄 [Adapting Large Language Models to Domains via Reading Comprehensio 논문](https://arxiv.org/abs/2309.09530)
