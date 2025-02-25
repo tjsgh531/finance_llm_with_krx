@@ -119,7 +119,12 @@
 2. 내용이 매우 비슷한 금융에 관한 context 두개를 입력으로 주어 해당 context에 관련된 MCQA 합성데이터를 만들도록 GPT-4o-mini에게 요청 - **generate data**
 3. 생성한 데이터에 중복 정답이 없는지 체크하고 있다면 다른 선택지로 바꾸도록 처리 - **quality control**
 
+### 주가 예측 합성 데이터
+파이썬 코드를 활용하여 랜덤성을 부여한 상승, 하락 주가 데이터 제작.
+
 # 참고 문서
 📄 [Adapting Large Language Models to Domains via Reading Comprehensio 논문](https://arxiv.org/abs/2309.09530)
 
 📄 [KRX-Bench: Automating Financial Benchmark Creation via Large Language Models 논문](https://aclanthology.org/2024.finnlp-1.2.pdf)
+
+📄 [Allganize 금융 LLM 제작 후기 블로그](https://www.allganize.ai/ko/blog-posts-ko/defining-evaluating-performance-of-financial-llm-models)
