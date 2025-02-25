@@ -27,11 +27,73 @@
 | v3 | 0.59 | 0.90 | 0.40 | 0.49 | 0.72 | 0.44 |[KR-X-AI:v3](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v3)|
 | v4_mix | 0.61 | 0.92 | 0.40 | 0.55 | 0.77 | 0.41 |[KR-X-AI:v4_m](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v4_m)|
 
-
 # 모델 설명
+### V1
+
+: 금융 용어 관련 대규모 데이터셋을 Qwen2-7B-Instruct 모델에 SFT 학습
+
+📍`model name` : KR-X-AI/krx-qwen2-7b-instruct-v2
+
+📍`base model` : Qwen/Qwen2-7B-Instruct
+
+📍`training method` : Continued pre-training, QLoRA
+
+📍`dataset` : ai hub 금융 합성 데이터셋(14.44GB)
+
+📍`train time` : 4hour 48min 12sec
+
+📍`hardware` : AMD 3960X RTX3090
+
+### V2
+
+: 금융 용어 multi task 데이터셋 Continue Pre-training
+
+📍`model name` : KR-X-AI/krx-qwen2-7b-instruct-v2
+
+📍`base model` : Qwen/Qwen2-7B-Instruct
+
+📍`training method` : Continued pre-training, QLoRA
+
+📍`dataset` : 금융 용어 데이터 셋 
+
+📍`train time` : 29min 16sec
+
+📍`hardware` : AMD 3960X RTX3090
+
+### V3
+
+: V2 모델에 MCQA 데이터 셋 fine-tuning
+
+📍`model name`**:** KR-X-AI/krx-qwen2-7b-instruct-v3
+
+📍`base model`**:** KR-X-AI/krx-qwen2-7b-instruct-v2
+
+📍`training method` : SFT
+
+📍`dataset` : MCQA 데이터 셋
+
+📍`train time` : 12분 32초
+
+📍`hardware` : AMD 3960X RTX3090
+
+### V4_mix
+
+: V2모델에 MCQA 데이터 셋과 주가 예측 데이터 셋을 섞어 fine-tuning
+
+📍`model name`**:** KR-X-AI/krx-qwen2-7b-instruct-v3
+
+📍`base model`**:** KR-X-AI/krx-qwen2-7b-instruct-v2
+
+📍`training method` : SFT
+
+📍`dataset` : MCQA 데이터 셋 + 주가 예측 데이터
+
+📍`train time` : 27분 46초
+
+📍`hardware` : AMD 3960X RTX3090
 
 # 합성 데이터 설명
-## MCQA 합성 데이터
+### MCQA 합성 데이터
 📦 데이터 크기 : 700 KB
 
 📍데이터 출처 : https://huggingface.co/datasets/Cartinoe5930/raw_text_synthetic_dataset_50k
