@@ -41,7 +41,7 @@
 <img width="601" alt="스크린샷 2025-02-25 오후 1 15 48" src="https://github.com/user-attachments/assets/82b6835c-f1a0-4884-ad25-ea513a823988" />
 
 - 유사한 내용을 가진 데이터를 BM25기반으로 검색. - **BM25**
-- 내용이 매우 비슷한 금융에 관한 context 두개를 입력으로 주어 해당 context에 관련된 MCQA 합성데이터를 만들도록 GPT-4o-mini에게 요청 - **generate MCQA**
+- 내용이 매우 비슷한 금융에 관한 context 두개를 입력으로 주어 해당 context에 관련된 MCQA 합성데이터를 만들도록 GPT-4o-mini에게 요청 - **generate data**
 - 생성한 데이터에 중복 정답이 없는지 체크하고 있다면 다른 선택지로 바꾸도록 처리 - **quality control**
 
 # 참고 문서
