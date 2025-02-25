@@ -5,7 +5,9 @@
 
 🏆 수상 내역 : 예선 3위, 본선 12위
 
-💻 기술 스택 : SFT, DAPT, Adapting LLM, distillation, QLoRA
+🙋🏻 맡은 역할 : MCQA 데이터 제작, SFT학습 : V3, V4_m 모델 학습
+
+💻 기술 스택 : SFT, DAPT, Adapting LLM, QLoRA
 
 🛠 사용 도구 : Unsloth, Bedrock, GPT API
 
@@ -25,7 +27,7 @@
 | v1 | 0.39 | 0.38 | 0.27 | 0.50 | 0.47 | 0.31 |[KR-X-AI:v1](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v1)|
 | v2 | 0.50 | 0.61 | 0.34 | 0.55 | 0.66 | 0.35 |[KR-X-AI:v2](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v2)|
 | v3 | 0.59 | 0.90 | 0.40 | 0.49 | 0.72 | 0.44 |[KR-X-AI:v3](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v3)|
-| v4_mix | 0.61 | 0.92 | 0.40 | 0.55 | 0.77 | 0.41 |[KR-X-AI:v4_m](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v4_m)|
+| v4_m | 0.61 | 0.92 | 0.40 | 0.55 | 0.77 | 0.41 |[KR-X-AI:v4_m](https://huggingface.co/KR-X-AI/krx-qwen2-7b-instruct-v4_m)|
 
 # 모델 설명
 ### V1
@@ -76,7 +78,7 @@
 
 📍`hardware` : AMD 3960X RTX3090
 
-### V4_mix
+### V4_m
 
 : V2모델에 MCQA 데이터 셋과 주가 예측 데이터 셋을 섞어 SFT 학습
 
@@ -121,6 +123,9 @@
 
 ### 주가 예측 합성 데이터
 파이썬 코드를 활용하여 랜덤성을 부여한 상승, 하락 주가 데이터 제작.
+
+# 보고서
+[KRX-금융 언어 모델 경진대회 보고서.pdf](https://github.com/user-attachments/files/18964371/KRX-.pdf)
 
 # 참고 문서
 📄 [Adapting Large Language Models to Domains via Reading Comprehensio 논문](https://arxiv.org/abs/2309.09530)
