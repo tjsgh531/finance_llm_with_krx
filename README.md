@@ -20,7 +20,8 @@
 금융분야 심화된 내용을 다루는 MCQA(Multiple Choice Question Answering) 및 생성형 질문으로 구성된 ‘KRX-Bench Challenge’를 이용하여 금융 한글 언어 모델 성능 평가
 
 # 모델 별 성능 분석
-![image](https://github.com/user-attachments/assets/1b71bffa-4d7a-4361-8938-f818d39ef840)
+![krx_모델 성능 비교](https://github.com/user-attachments/assets/4800d089-f943-43ef-ba40-7b10daa2e322)
+
 | 모델명 | 전체 평균 | 국내기업 | 재무회계 | 주가예측 | 금융에이전트 | 금융시장 |url|
 |--------|-----------|----------|----------|----------|--------------|----------|----------|
 | qwen2-7B-Instruct | 0.44 | 0.51 | 0.27 | 0.54 | 0.62 | 0.26 |-|
