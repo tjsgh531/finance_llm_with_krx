@@ -93,18 +93,31 @@
 📍`hardware` : AMD 3960X RTX3090
 
 # 합성 데이터 설명
+### 금융 용어 합성 데이터
+📦 데이터 크기 : 2.1 MB
+
+📍데이터 출처 : [기획 재정부 금융 용어집(941KB)](https://www.econedu.go.kr/user/playEcon/currEconTermDoc/menu/list)
+
+📄 참고 논문 : [Adapting Large Language Models to Domains via Reading Comprehension](https://arxiv.org/abs/2309.09530)
+
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/fe5608f6-cac2-444c-8c56-8ee83622b48e" />
+
+1. raw data에서 금융 주제만 뽑는다 ⇒ 총 816개
+2. gpt api를 활용하여 합성 데이터를 생성한다.
+3. SFT 학습 형태에 맞게 format을 맞춘다.
+
 ### MCQA 합성 데이터
 📦 데이터 크기 : 700 KB
 
-📍데이터 출처 : https://huggingface.co/datasets/Cartinoe5930/raw_text_synthetic_dataset_50k
+📍데이터 출처 : [huggingface - Cartinoe5930/raw_text_synthetic_dataset_50k](https://huggingface.co/datasets/Cartinoe5930/raw_text_synthetic_dataset_50k)
 
-📄 참고 논문 : https://aclanthology.org/2024.finnlp-1.2.pdf
+📄 참고 논문 : [KRX-Bench: Automating Financial Benchmark Creation via Large Language Models](https://aclanthology.org/2024.finnlp-1.2/)
 
 <img width="601" alt="스크린샷 2025-02-25 오후 1 15 48" src="https://github.com/user-attachments/assets/82b6835c-f1a0-4884-ad25-ea513a823988" />
 
-- 유사한 내용을 가진 데이터를 BM25기반으로 검색. - **BM25**
-- 내용이 매우 비슷한 금융에 관한 context 두개를 입력으로 주어 해당 context에 관련된 MCQA 합성데이터를 만들도록 GPT-4o-mini에게 요청 - **generate data**
-- 생성한 데이터에 중복 정답이 없는지 체크하고 있다면 다른 선택지로 바꾸도록 처리 - **quality control**
+1. 유사한 내용을 가진 데이터를 BM25기반으로 검색. - **BM25**
+2. 내용이 매우 비슷한 금융에 관한 context 두개를 입력으로 주어 해당 context에 관련된 MCQA 합성데이터를 만들도록 GPT-4o-mini에게 요청 - **generate data**
+3. 생성한 데이터에 중복 정답이 없는지 체크하고 있다면 다른 선택지로 바꾸도록 처리 - **quality control**
 
 # 참고 문서
 📄 [Adapting Large Language Models to Domains via Reading Comprehensio 논문](https://arxiv.org/abs/2309.09530)
